@@ -46,3 +46,37 @@ The computer makes a random choice, and the winner is decided based on standard 
 <img width="580" height="235" alt="Screenshot 2025-08-16 225329" src="https://github.com/user-attachments/assets/02e4f808-20ea-484e-b78a-caa56de11f1d" />
 <img width="583" height="237" alt="Screenshot 2025-08-16 225308" src="https://github.com/user-attachments/assets/424049ab-b2d5-40dc-a863-2cc892ffa147" />
 
+
+---
+
+<h2> Project - 2: PyPassword Generator 🔑 </h2>
+
+<h3> 📌 Description </h3>  
+<p style="font-size:16px">  
+This is a Python-based Password Generator that creates strong and secure random passwords.  
+The user specifies how many letters, numbers, and symbols should be included, and the program generates a shuffled password containing all selected elements.  
+</p>  
+
+---
+
+<h3> ⚙️ APPROACH </h3>  
+<p style="font-size:16px">  
+
+1. Create three lists containing:  
+   - <b>letters</b> (both uppercase and lowercase alphabets)  
+   - <b>numbers</b> (0–9)  
+   - <b>symbols</b> (!, #, $, %, &, (, ), *, +)  
+2. Ask the user how many letters, symbols, and numbers they want in the password.  
+3. Use <code>random.choice()</code> to randomly select elements from each list based on user input.  
+4. Store all selected characters in a list.  
+5. Shuffle the list using <code>random.shuffle()</code> to make the password unpredictable.  
+6. Join the shuffled list into a single string.  
+7. Display the final password to the user.  
+
+</p>  
+
+---
+
+<h3> 🎮 Example Gameplay </h3>  
+<img width="512" height="333" alt="Screenshot 2025-08-16 232525" src="https://github.com/user-attachments/assets/92d514d4-d35c-4c83-bd3f-2b116c996a33" />
+

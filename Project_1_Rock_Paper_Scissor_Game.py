@@ -28,3 +28,5 @@ if ch>=0 and ch<=2:
             print("you Lost")
 else:
     print("Enter Valid Input from 0-2")
+
+# Thank you

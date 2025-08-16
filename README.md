@@ -80,3 +80,52 @@ The user specifies how many letters, numbers, and symbols should be included, an
 <h3> 🎮 Example Gameplay </h3>  
 <img width="512" height="333" alt="Screenshot 2025-08-16 232525" src="https://github.com/user-attachments/assets/92d514d4-d35c-4c83-bd3f-2b116c996a33" />
 
+---
+
+<h2>🎮 Project 3 - Hangman Game </h2>
+
+<h3>📌 Statement </h3>
+  <p>
+    This is a classic <strong>Hangman Game</strong> built using <strong>Python</strong>. 
+    The game selects a random word from a word list and the player has to guess it letter by letter 
+    before running out of lives. The game also displays hangman ASCII art for each incorrect guess.
+  </p>
+
+  <h3>🚀 Features</h3>
+  <ul>
+    <li>Random word selection from a word list.</li>
+    <li>Displays underscores for letters to be guessed.</li>
+    <li>Tracks correct guesses and updates the word display.</li>
+    <li>Reduces lives for each wrong guess.</li>
+    <li>ASCII Art representation of hangman stages.</li>
+    <li>Win/lose conditions with clear messages.</li>
+  </ul>
+
+  <h3>📂 Project Structure</h3>
+  <pre>
+  ├── Hangman_wordsList.py   # Contains the list of words
+  ├── Hangman_AsciiArt.py    # Contains ASCII art for hangman stages
+  ├── Hangman_game.py             # Main game file
+  </pre>
+
+  <h3>⚙️ Requirements</h3>
+  <ul>
+    <li>Python </li>
+    <li>No external libraries required</li>
+  </ul>
+
+  <h3>▶️ How to Run</h3>
+  <ol>
+    <li>Clone the repository:</li>
+    <pre>git clone &lt;your-repo-link&gt;</pre>
+    <li>Navigate to the project folder:</li>
+    <pre>cd project-3 Hangman_game</pre>
+    <li>Run the game:</li>
+    <pre>python Hangman_game.py</pre>
+  </ol>
+
+  <h3>📸 Example Gameplay</h3><img width="928" height="840" alt="Screenshot 2025-08-17 003339" src="https://github.com/user-attachments/assets/54b7ac8d-bd3d-4219-8916-bd20a1a74352" />
+<img width="894" height="834" alt="Screenshot 2025-08-17 003406" src="https://github.com/user-attachments/assets/32a5300b-9837-43c8-8d87-def5c91d0003" />
+<img width="910" height="789" alt="Screenshot 2025-08-17 003431" src="https://github.com/user-attachments/assets/f3ed9501-3647-47c1-8427-752c4b13586b" />
+
+

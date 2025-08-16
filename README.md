@@ -117,7 +117,7 @@ The user specifies how many letters, numbers, and symbols should be included, an
   <h3>▶️ How to Run</h3>
   <ol>
     <li>Clone the repository:</li>
-    <pre>git clone &lt;your-repo-link&gt;</pre>
+    <pre>git clone &lt;https://github.com/gajjelamanikantagoud/Python-Projects-/blob/main/Project-3%20Hangman_Game.zip&gt;</pre>
     <li>Navigate to the project folder:</li>
     <pre>cd project-3 Hangman_game</pre>
     <li>Run the game:</li>
@@ -127,5 +127,53 @@ The user specifies how many letters, numbers, and symbols should be included, an
   <h3>📸 Example Gameplay</h3><img width="928" height="840" alt="Screenshot 2025-08-17 003339" src="https://github.com/user-attachments/assets/54b7ac8d-bd3d-4219-8916-bd20a1a74352" />
 <img width="894" height="834" alt="Screenshot 2025-08-17 003406" src="https://github.com/user-attachments/assets/32a5300b-9837-43c8-8d87-def5c91d0003" />
 <img width="910" height="789" alt="Screenshot 2025-08-17 003431" src="https://github.com/user-attachments/assets/f3ed9501-3647-47c1-8427-752c4b13586b" />
+
+---
+
+ <h2>🔐 Project 4 - Caesar Cipher </h2>
+
+  <p>
+    This project is a simple implementation of the <strong>Caesar Cipher</strong> encryption technique in <strong>Python</strong>.  
+    The program allows the user to <b>encode</b> (encrypt) or <b>decode</b> (decrypt) messages by shifting each letter of the text 
+    forward or backward in the alphabet by a user-defined amount.  
+    It also gracefully handles large shift values and preserves non-alphabetic characters such as spaces and symbols.
+  </p>
+
+  <h3>🚀 Features</h3>
+  <ul>
+    <li>Encrypt messages by shifting letters forward in the alphabet.</li>
+    <li>Decrypt messages by shifting letters backward.</li>
+    <li>Handles shifts larger than the alphabet size using modular arithmetic.</li>
+    <li>Keeps spaces, numbers, and symbols unchanged.</li>
+    <li>Interactive: lets the user continue encoding/decoding multiple times.</li>
+    <li>Includes ASCII art logo (imported from <code>art.py</code>).</li>
+  </ul>
+
+  <h3>📂 Project Structure</h3>
+  <pre>
+  ├── art.py          # Contains ASCII art logo
+  ├── caesar.py       # Main Caesar Cipher game logic
+  </pre>
+
+  <h3>⚙️ Requirements</h3>
+  <ul>
+    <li>Python 3.x</li>
+    <li>No external libraries required</li>
+  </ul>
+
+  <h3>▶️ How to Run</h3>
+  <ol>
+    <li>Clone the repository:</li>
+    <pre>git clone &lt;your-repo-link&gt;</pre>
+    <li>Navigate to the project folder:</li>
+    <pre>cd project-4-caesar-cipher</pre>
+    <li>Run the program:</li>
+    <pre>python caesarcipher.py</pre>
+  </ol>
+
+  <h3>📸 Example Gameplay</h3>
+  
+<img width="765" height="760" alt="Screenshot 2025-08-17 012619" src="https://github.com/user-attachments/assets/673a075a-66f2-464c-b4ab-97120c34aa89" />
+<img width="620" height="321" alt="Screenshot 2025-08-17 012636" src="https://github.com/user-attachments/assets/5940a8bd-8866-4365-80e0-3f73faa09e36" />
 
 

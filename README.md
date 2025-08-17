@@ -164,7 +164,7 @@ The user specifies how many letters, numbers, and symbols should be included, an
   <h3>▶️ How to Run</h3>
   <ol>
     <li>Clone the repository:</li>
-    <pre>git clone &lt;your-repo-link&gt;</pre>
+    <pre>git clone &lt;https://github.com/gajjelamanikantagoud/Python-Projects-/blob/main/Project_4_Ceaser_Cipher.zip&gt;</pre>
     <li>Navigate to the project folder:</li>
     <pre>cd project-4-caesar-cipher</pre>
     <li>Run the program:</li>
@@ -176,4 +176,83 @@ The user specifies how many letters, numbers, and symbols should be included, an
 <img width="765" height="760" alt="Screenshot 2025-08-17 012619" src="https://github.com/user-attachments/assets/673a075a-66f2-464c-b4ab-97120c34aa89" />
 <img width="620" height="321" alt="Screenshot 2025-08-17 012636" src="https://github.com/user-attachments/assets/5940a8bd-8866-4365-80e0-3f73faa09e36" />
 
+---
 
+<h1>🧮 Calculator App</h1>
+
+<h2>📌 Description</h2>
+<p>This is a simple interactive calculator application built in Python. It allows users to perform basic arithmetic operations—addition, subtraction, multiplication, and division—with continuous calculations on the current result or the option to start a fresh calculation.</p>
+
+<h2>⚙️ Approach</h2>
+<ul>
+  <li>Define functions for each arithmetic operation: <code>add</code>, <code>subtract</code>, <code>multiply</code>, and <code>divide</code>.</li>
+  <li>Use a dictionary to map operator symbols (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>) to their corresponding functions.</li>
+  <li>Prompt the user to enter the first number to start.</li>
+  <li>Continuously ask the user to:
+    <ul>
+      <li>Pick an operation symbol.</li>
+      <li>Enter the next number.</li>
+      <li>Calculate and display the result.</li>
+    </ul>
+  </li>
+  <li>Allow the user to either continue calculating with the current result, start a new calculation, or exit the app.</li>
+</ul>
+
+<h2>🔢 Supported Operations</h2>
+<ul>
+  <li>Addition (<code>+</code>)</li>
+  <li>Subtraction (<code>-</code>)</li>
+  <li>Multiplication (<code>*</code>)</li>
+  <li>Division (<code>/</code>) - handles division by zero gracefully</li>
+</ul>
+
+ <h3>📂 Project Structure</h3>
+  <pre>
+  ├── art.py          # Contains ASCII art logo
+  ├── Calculator.py       # Main Caesar Cipher game logic
+  </pre>
+
+<h2>📖 Example Usage</h2>
+<pre><code>Enter first number: 10
+Available operations:
++
+-
+*
+/
+Pick an operation symbol: *
+Enter second number: 5
+10 * 5 = 50
+Type 'y' to continue calculating with the result, 'n' for a new calculation, or 's' to stop: y
+Available operations:
++
+-
+*
+/
+Pick an operation symbol: +
+Enter second number: 20
+50 + 20 = 70
+Type 'y' to continue calculating with the result, 'n' for a new calculation, or 's' to stop: n
+
+Enter first number: ...
+</code></pre>
+
+<h2>⚠️ Notes and Error Handling</h2>
+<ul>
+  <li>Input validation ensures the user must enter valid numbers.</li>
+  <li>Invalid operation symbols prompt the user to re-enter.</li>
+  <li>Division by zero is checked and handled with an error message.</li>
+  <li>User can exit gracefully by typing 's'.</li>
+</ul>
+
+<h2>▶️ How to Run</h2>
+<pre><code>pip install art  # If you want the ASCII art logo to display
+
+python calculator_app.py
+</code></pre>
+
+<h2>✅ Future Enhancements</h2>
+<ul>
+  <li>Add support for more complex operations (exponentiation, modulus).</li>
+  <li>Implement a graphical user interface.</li>
+  <li>Allow expression inputs (e.g., "3 + 5 * 2") with proper operator precedence.</li>
+</ul>
